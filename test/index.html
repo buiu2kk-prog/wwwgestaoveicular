@@ -1,0 +1,551 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta name="description" content="Soldias Energia Solar LTDA — CNPJ 47.349.021/0001-80. Empresa ativa em São Paulo/SP, Simples Nacional. Energia solar, comércio e serviços." />
+  <title>Soldias | Energia Solar</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=DM+Sans:ital,opsz,wght@0,9..40,400;0,9..40,500;0,9..40,600;0,9..40,700;1,9..40,400&family=Outfit:wght@500;600;700;800&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+  <!-- Header -->
+  <header class="header" id="header">
+    <div class="container header__inner">
+      <a href="#inicio" class="logo" aria-label="Soldias Energia — início">
+        <span class="logo__icon" aria-hidden="true">
+          <svg viewBox="0 0 40 40" fill="none" xmlns="http://www.w3.org/2000/svg">
+            <circle cx="20" cy="20" r="8" fill="currentColor"/>
+            <g stroke="currentColor" stroke-width="2" stroke-linecap="round">
+              <line x1="20" y1="4" x2="20" y2="8"/>
+              <line x1="20" y1="32" x2="20" y2="36"/>
+              <line x1="4" y1="20" x2="8" y2="20"/>
+              <line x1="32" y1="20" x2="36" y2="20"/>
+              <line x1="8.5" y1="8.5" x2="11.3" y2="11.3"/>
+              <line x1="28.7" y1="28.7" x2="31.5" y2="31.5"/>
+              <line x1="8.5" y1="31.5" x2="11.3" y2="28.7"/>
+              <line x1="28.7" y1="11.3" x2="31.5" y2="8.5"/>
+            </g>
+          </svg>
+        </span>
+        <span class="logo__text">
+          <strong>Soldias</strong> Energia
+        </span>
+      </a>
+
+      <nav class="nav" id="nav" aria-label="Principal">
+        <a href="#inicio" class="nav__link">Início</a>
+        <a href="#sobre" class="nav__link">Sobre</a>
+        <a href="#servicos" class="nav__link">Serviços</a>
+        <a href="#empresa" class="nav__link">Empresa</a>
+        <a href="#contato" class="nav__link nav__link--cta">Contato</a>
+      </nav>
+
+      <button class="menu-toggle" id="menuToggle" aria-label="Abrir menu" aria-expanded="false" aria-controls="nav">
+        <span></span><span></span><span></span>
+      </button>
+    </div>
+  </header>
+
+  <main>
+    <!-- Hero -->
+    <section class="hero" id="inicio">
+      <div class="hero__bg" aria-hidden="true">
+        <div class="hero__glow hero__glow--1"></div>
+        <div class="hero__glow hero__glow--2"></div>
+        <div class="hero__grid"></div>
+      </div>
+      <div class="container hero__content">
+        <p class="hero__badge">
+          <span class="hero__badge-dot"></span>
+          São Paulo · SP
+        </p>
+        <h1 class="hero__title">
+          Energia solar e soluções
+          <span class="hero__title-accent">para o seu projeto</span>
+        </h1>
+        <p class="hero__subtitle">
+          Soldias Energia Solar LTDA — empresa ativa em São Paulo, no Simples Nacional,
+          com atendimento comercial e atividades registradas na Receita Federal.
+        </p>
+        <div class="hero__actions">
+          <a href="#contato" class="btn btn--primary">
+            Fale conosco
+            <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" aria-hidden="true"><path d="M5 12h14M13 6l6 6-6 6"/></svg>
+          </a>
+          <a href="#servicos" class="btn btn--ghost">Nossos serviços</a>
+        </div>
+        <ul class="hero__stats" role="list">
+          <li>
+            <strong>Desde 2022</strong>
+            <span>4 anos de atuação</span>
+          </li>
+          <li>
+            <strong>Simples Nacional</strong>
+            <span>Microempresa</span>
+          </li>
+          <li>
+            <strong>29 CNAEs</strong>
+            <span>Atividades autorizadas</span>
+          </li>
+        </ul>
+      </div>
+    </section>
+
+    <!-- Sobre -->
+    <section class="section" id="sobre">
+      <div class="container">
+        <div class="section__header">
+          <span class="section__label">Sobre nós</span>
+          <h2 class="section__title">Soldias Energia Solar LTDA</h2>
+          <p class="section__lead">
+            A empresa <strong>Soldias Energia Solar LTDA</strong>, de CNPJ 47.349.021/0001-80,
+            foi fundada em 29/07/2022 na cidade de São Paulo, estado de São Paulo.
+            Sua atividade principal, conforme a Receita Federal, é
+            <strong>82.11-3-00 — Serviços combinados de escritório e apoio administrativo</strong>.
+            Situação cadastral: <strong>Ativa</strong>.
+          </p>
+        </div>
+
+        <div class="about-grid">
+          <article class="about-card">
+            <div class="about-card__icon" aria-hidden="true">
+              <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.75"><path d="M12 2v4M12 18v4M4.93 4.93l2.83 2.83M16.24 16.24l2.83 2.83M2 12h4M18 12h4M4.93 19.07l2.83-2.83M16.24 7.76l2.83-2.83"/><circle cx="12" cy="12" r="4"/></svg>
+            </div>
+            <h3>Missão</h3>
+            <p>Atender clientes em São Paulo com soluções em energia solar, apoio administrativo e as atividades comerciais registradas no CNPJ.</p>
+          </article>
+          <article class="about-card">
+            <div class="about-card__icon" aria-hidden="true">
+              <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.75"><path d="M12 22s8-4 8-10V5l-8-3-8 3v7c0 6 8 10 8 10z"/></svg>
+            </div>
+            <h3>Confiança</h3>
+            <p>Empresa regularmente constituída, com situação cadastral <strong>Ativa</strong> na Receita Federal e opção pelo Simples Nacional desde 29/07/2022.</p>
+          </article>
+          <article class="about-card">
+            <div class="about-card__icon" aria-hidden="true">
+              <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.75"><path d="M21 10c0 7-9 13-9 13s-9-6-9-13a9 9 0 0 1 18 0z"/><circle cx="12" cy="10" r="3"/></svg>
+            </div>
+            <h3>Localização</h3>
+            <p>Rua Catumbi, 1139 — Catumbi, São Paulo/SP. Atendimento e correspondência no mesmo endereço.</p>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <!-- Serviços -->
+    <section class="section section--alt" id="servicos">
+      <div class="container">
+        <div class="section__header">
+          <span class="section__label">O que fazemos</span>
+          <h2 class="section__title">Serviços e atividades</h2>
+          <p class="section__lead">
+            Atividades econômicas registradas na Receita Federal (CNAE), conforme o cadastro da empresa.
+          </p>
+        </div>
+
+        <div class="services-stack">
+          <article class="service-card service-card--featured">
+            <span class="service-card__cnae">CNAE Principal</span>
+            <div class="service-card__icon" aria-hidden="true">
+              <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.75"><rect x="2" y="7" width="20" height="14" rx="2"/><path d="M16 7V5a2 2 0 0 0-2-2h-4a2 2 0 0 0-2 2v2"/><line x1="12" y1="12" x2="12" y2="16"/><line x1="10" y1="14" x2="14" y2="14"/></svg>
+            </div>
+            <h3>Serviços combinados de escritório e apoio administrativo</h3>
+            <p class="service-card__code">82.11-3-00</p>
+            <p>Atividade principal da empresa junto à Receita Federal: serviços combinados de escritório e apoio administrativo.</p>
+          </article>
+
+          <div class="cnae-block">
+            <h3 class="cnae-block__title">Atividades secundárias</h3>
+            <ul class="cnae-list" role="list">
+              <li>
+                <span class="cnae-list__code">18.13-0-01</span>
+                <span class="cnae-list__name">Impressão de material para uso publicitário</span>
+              </li>
+              <li>
+                <span class="cnae-list__code">18.13-0-99</span>
+                <span class="cnae-list__name">Impressão de material para outros usos</span>
+              </li>
+              <li>
+                <span class="cnae-list__code">45.20-0-01</span>
+                <span class="cnae-list__name">Serviços de manutenção e reparação mecânica de veículos automotores</span>
+              </li>
+              <li>
+                <span class="cnae-list__code">45.30-7-03</span>
+                <span class="cnae-list__name">Comércio a varejo de peças e acessórios novos para veículos automotores</span>
+              </li>
+              <li>
+                <span class="cnae-list__code">74.90-1-04</span>
+                <span class="cnae-list__name">Atividades de intermediação e agenciamento de serviços e negócios em geral, exceto imobiliários</span>
+              </li>
+              <li>
+                <span class="cnae-list__code">13.40-5-99</span>
+                <span class="cnae-list__name">Outros serviços de acabamento em fios, tecidos, artefatos têxteis e peças do vestuário</span>
+              </li>
+              <li>
+                <span class="cnae-list__code">46.42-7-01</span>
+                <span class="cnae-list__name">Comércio atacadista de artigos do vestuário e acessórios, exceto profissionais e de segurança</span>
+              </li>
+              <li>
+                <span class="cnae-list__code">46.43-5-01</span>
+                <span class="cnae-list__name">Comércio atacadista de calçados</span>
+              </li>
+              <li>
+                <span class="cnae-list__code">46.41-9-02</span>
+                <span class="cnae-list__name">Comércio atacadista de artigos de cama, mesa e banho</span>
+              </li>
+              <li>
+                <span class="cnae-list__code">45.11-1-03</span>
+                <span class="cnae-list__name">Comércio por atacado de automóveis, camionetas e utilitários novos e usados</span>
+              </li>
+              <li>
+                <span class="cnae-list__code">45.30-7-01</span>
+                <span class="cnae-list__name">Comércio por atacado de peças e acessórios novos para veículos automotores</span>
+              </li>
+              <li>
+                <span class="cnae-list__code">45.42-1-01</span>
+                <span class="cnae-list__name">Representantes comerciais e agentes do comércio de motocicletas e motonetas, peças e acessórios</span>
+              </li>
+              <li>
+                <span class="cnae-list__code">73.19-0-02</span>
+                <span class="cnae-list__name">Promoção de vendas</span>
+              </li>
+              <li>
+                <span class="cnae-list__code">32.92-2-02</span>
+                <span class="cnae-list__name">Fabricação de equipamentos e acessórios para segurança pessoal e profissional</span>
+              </li>
+              <li>
+                <span class="cnae-list__code">46.41-9-01</span>
+                <span class="cnae-list__name">Comércio atacadista de tecidos</span>
+              </li>
+              <li>
+                <span class="cnae-list__code">46.45-1-01</span>
+                <span class="cnae-list__name">Comércio atacadista de instrumentos e materiais para uso médico, cirúrgico, hospitalar e de laboratórios</span>
+              </li>
+              <li>
+                <span class="cnae-list__code">46.39-7-01</span>
+                <span class="cnae-list__name">Comércio atacadista de produtos alimentícios em geral</span>
+              </li>
+              <li>
+                <span class="cnae-list__code">46.37-1-99</span>
+                <span class="cnae-list__name">Comércio atacadista especializado em outros produtos alimentícios não especificados anteriormente</span>
+              </li>
+              <li>
+                <span class="cnae-list__code">46.45-1-03</span>
+                <span class="cnae-list__name">Comércio atacadista de produtos odontológicos</span>
+              </li>
+              <li>
+                <span class="cnae-list__code">46.23-1-09</span>
+                <span class="cnae-list__name">Comércio atacadista de alimentos para animais</span>
+              </li>
+              <li>
+                <span class="cnae-list__code">14.13-4-02</span>
+                <span class="cnae-list__name">Confecção, sob medida, de roupas profissionais</span>
+              </li>
+              <li>
+                <span class="cnae-list__code">46.44-3-01</span>
+                <span class="cnae-list__name">Comércio atacadista de medicamentos e drogas de uso humano</span>
+              </li>
+              <li>
+                <span class="cnae-list__code">26.21-3-00</span>
+                <span class="cnae-list__name">Fabricação de equipamentos de informática</span>
+              </li>
+              <li>
+                <span class="cnae-list__code">26.31-1-00</span>
+                <span class="cnae-list__name">Fabricação de equipamentos transmissores de comunicação, peças e acessórios</span>
+              </li>
+              <li>
+                <span class="cnae-list__code">45.41-2-02</span>
+                <span class="cnae-list__name">Comércio por atacado de peças e acessórios para motocicletas e motonetas</span>
+              </li>
+              <li>
+                <span class="cnae-list__code">46.42-7-02</span>
+                <span class="cnae-list__name">Comércio atacadista de roupas e acessórios para uso profissional e de segurança do trabalho</span>
+              </li>
+              <li>
+                <span class="cnae-list__code">14.13-4-01</span>
+                <span class="cnae-list__name">Confecção de roupas profissionais, exceto sob medida</span>
+              </li>
+              <li>
+                <span class="cnae-list__code">45.41-2-06</span>
+                <span class="cnae-list__name">Comércio a varejo de peças e acessórios novos para motocicletas e motonetas</span>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Dados da empresa -->
+    <section class="section" id="empresa">
+      <div class="container">
+        <div class="section__header">
+          <span class="section__label">Transparência</span>
+          <h2 class="section__title">Dados cadastrais</h2>
+          <p class="section__lead">
+            Informações oficiais de registro da empresa para consulta e correspondência.
+          </p>
+        </div>
+
+        <div class="company-panel">
+          <div class="company-panel__main">
+            <dl class="data-list">
+              <div class="data-list__item">
+                <dt>Razão Social</dt>
+                <dd>Soldias Energia Solar LTDA</dd>
+              </div>
+              <div class="data-list__item">
+                <dt>CNPJ</dt>
+                <dd>47.349.021/0001-80</dd>
+              </div>
+              <div class="data-list__item">
+                <dt>Inscrição Estadual (SP)</dt>
+                <dd>136.566.200.111</dd>
+              </div>
+              <div class="data-list__item">
+                <dt>Data de Abertura</dt>
+                <dd>29/07/2022 · 4 anos, 1 mês e 6 dias</dd>
+              </div>
+              <div class="data-list__item">
+                <dt>Porte</dt>
+                <dd>Micro Empresa</dd>
+              </div>
+              <div class="data-list__item">
+                <dt>Natureza Jurídica</dt>
+                <dd>Sociedade Empresária Limitada</dd>
+              </div>
+              <div class="data-list__item">
+                <dt>Opção pelo MEI</dt>
+                <dd>Não</dd>
+              </div>
+              <div class="data-list__item">
+                <dt>Opção pelo Simples</dt>
+                <dd>Sim · desde 29/07/2022</dd>
+              </div>
+              <div class="data-list__item">
+                <dt>Capital Social</dt>
+                <dd>R$ 30.000,00</dd>
+              </div>
+              <div class="data-list__item">
+                <dt>Tipo / Situação</dt>
+                <dd>Matriz · <span class="badge badge--success">Ativa</span></dd>
+              </div>
+              <div class="data-list__item">
+                <dt>Data Situação Cadastral</dt>
+                <dd>29/07/2022</dd>
+              </div>
+              <div class="data-list__item">
+                <dt>Atividade principal</dt>
+                <dd>82.11-3-00 — Serviços combinados de escritório e apoio administrativo</dd>
+              </div>
+            </dl>
+          </div>
+
+          <aside class="company-panel__side">
+            <div class="side-card">
+              <h3>Quadro societário</h3>
+              <ul class="partners">
+                <li>
+                  <span class="partners__name">Mauricio Dias da Silva</span>
+                  <span class="partners__role">Sócio-Administrador</span>
+                </li>
+              </ul>
+              <p class="side-card__note">Qualificação do responsável: Sócio-Administrador</p>
+            </div>
+            <div class="side-card side-card--highlight">
+              <h3>Endereço para correspondência</h3>
+              <address>
+                Soldias Energia Solar LTDA<br />
+                Rua Catumbi, 1139<br />
+                Catumbi<br />
+                São Paulo — SP<br />
+                CEP 03021-000
+              </address>
+              <a
+                class="btn btn--small btn--outline"
+                href="https://www.google.com/maps/search/?api=1&query=Rua+Catumbi+1139+Catumbi+Sao+Paulo+SP+03021-000"
+                target="_blank"
+                rel="noopener noreferrer"
+              >
+                Ver no Google Maps
+              </a>
+            </div>
+          </aside>
+        </div>
+      </div>
+    </section>
+
+    <!-- Contato / CTA -->
+    <section class="section section--cta" id="contato">
+      <div class="container">
+        <div class="cta-box">
+          <div class="cta-box__content">
+            <span class="section__label section__label--light">Contato</span>
+            <h2 class="cta-box__title">Vamos conversar sobre o seu projeto?</h2>
+            <p class="cta-box__text">
+              Estamos em São Paulo, no bairro Catumbi, prontos para atender.
+              Entre em contato pelos canais oficiais da empresa.
+            </p>
+            <ul class="contact-list" role="list">
+              <li>
+                <span class="contact-list__icon" aria-hidden="true">
+                  <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M21 10c0 7-9 13-9 13s-9-6-9-13a9 9 0 0 1 18 0z"/><circle cx="12" cy="10" r="3"/></svg>
+                </span>
+                <div>
+                  <strong>Endereço</strong>
+                  <a
+                    href="https://www.google.com/maps/search/?api=1&query=Rua+Catumbi+1139+Catumbi+Sao+Paulo+SP+03021-000"
+                    target="_blank"
+                    rel="noopener noreferrer"
+                  >
+                    Rua Catumbi, 1139 — Catumbi<br />
+                    São Paulo/SP · CEP 03021-000
+                  </a>
+                </div>
+              </li>
+              <li>
+                <span class="contact-list__icon" aria-hidden="true">
+                  <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M22 16.92v3a2 2 0 0 1-2.18 2 19.79 19.79 0 0 1-8.63-3.07 19.5 19.5 0 0 1-6-6 19.79 19.79 0 0 1-3.07-8.67A2 2 0 0 1 4.11 2h3a2 2 0 0 1 2 1.72c.127.96.361 1.903.7 2.81a2 2 0 0 1-.45 2.11L8.09 9.91a16 16 0 0 0 6 6l1.27-1.27a2 2 0 0 1 2.11-.45c.907.339 1.85.573 2.81.7A2 2 0 0 1 22 16.92z"/></svg>
+                </span>
+                <div>
+                  <strong>Telefone(s)</strong>
+                  <a href="tel:+551145571309">(11) 4557-1309</a>
+                  <br />
+                  <a href="tel:+551734217144">(17) 3421-7144</a>
+                </div>
+              </li>
+              <li>
+                <span class="contact-list__icon" aria-hidden="true">
+                  <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M4 4h16c1.1 0 2 .9 2 2v12c0 1.1-.9 2-2 2H4c-1.1 0-2-.9-2-2V6c0-1.1.9-2 2-2z"/><polyline points="22,6 12,13 2,6"/></svg>
+                </span>
+                <div>
+                  <strong>E-mail</strong>
+                  <a href="mailto:ajuda@energiasolarsoldias.com">ajuda@energiasolarsoldias.com</a>
+                </div>
+              </li>
+            </ul>
+          </div>
+          <div class="cta-box__card">
+            <h3>Solicite um orçamento</h3>
+            <p>Conte-nos o que você precisa. Respondemos o mais breve possível.</p>
+            <form class="contact-form" id="contactForm" novalidate>
+              <label class="field">
+                <span>Nome</span>
+                <input type="text" name="nome" placeholder="Seu nome" required autocomplete="name" />
+              </label>
+              <label class="field">
+                <span>Telefone</span>
+                <input type="tel" name="telefone" placeholder="(11) 4557-1309" required autocomplete="tel" />
+              </label>
+              <label class="field">
+                <span>Mensagem</span>
+                <textarea name="mensagem" rows="4" placeholder="Descreva seu projeto ou necessidade" required></textarea>
+              </label>
+              <button type="submit" class="btn btn--primary btn--full">
+                Enviar mensagem
+              </button>
+              <p class="form-note" id="formNote" role="status" aria-live="polite"></p>
+            </form>
+          </div>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <!-- Footer -->
+  <footer class="footer">
+    <div class="container footer__inner">
+      <div class="footer__brand">
+        <a href="#inicio" class="logo logo--footer">
+          <span class="logo__icon" aria-hidden="true">
+            <svg viewBox="0 0 40 40" fill="none" xmlns="http://www.w3.org/2000/svg">
+              <circle cx="20" cy="20" r="8" fill="currentColor"/>
+              <g stroke="currentColor" stroke-width="2" stroke-linecap="round">
+                <line x1="20" y1="4" x2="20" y2="8"/>
+                <line x1="20" y1="32" x2="20" y2="36"/>
+                <line x1="4" y1="20" x2="8" y2="20"/>
+                <line x1="32" y1="20" x2="36" y2="20"/>
+                <line x1="8.5" y1="8.5" x2="11.3" y2="11.3"/>
+                <line x1="28.7" y1="28.7" x2="31.5" y2="31.5"/>
+                <line x1="8.5" y1="31.5" x2="11.3" y2="28.7"/>
+                <line x1="28.7" y1="11.3" x2="31.5" y2="8.5"/>
+              </g>
+            </svg>
+          </span>
+          <span class="logo__text"><strong>Soldias</strong> Energia</span>
+        </a>
+        <p>Soldias Energia Solar LTDA — São Paulo, bairro Catumbi.</p>
+        <p class="footer__address">
+          <strong>Endereço</strong><br />
+          Rua Catumbi, 1139 — Catumbi<br />
+          São Paulo/SP · CEP 03021-000
+        </p>
+      </div>
+      <div class="footer__cols">
+        <div>
+          <h4>Navegação</h4>
+          <a href="#sobre">Sobre</a>
+          <a href="#servicos">Serviços</a>
+          <a href="#empresa">Empresa</a>
+          <a href="#contato">Contato</a>
+        </div>
+        <div>
+          <h4>Empresa</h4>
+          <p>CNPJ 47.349.021/0001-80</p>
+          <p>IE 136.566.200.111</p>
+          <p>Matriz · Situação Ativa</p>
+          <p>Tel.: <a href="tel:+551145571309">(11) 4557-1309</a></p>
+          <p>Tel.: <a href="tel:+551734217144">(17) 3421-7144</a></p>
+          <p>E-mail</p>
+          <a href="mailto:ajuda@energiasolarsoldias.com">ajuda@energiasolarsoldias.com</a>
+        </div>
+      </div>
+    </div>
+    <div class="footer__bottom">
+      <div class="container">
+        <p>© <span id="year"></span> Soldias Energia Solar LTDA. Todos os direitos reservados.</p>
+        <p class="footer__legal">MEI: Não · Simples Nacional: Sim · Capital social: R$ 30.000,00</p>
+      </div>
+    </div>
+  </footer>
+
+  <!-- Flutuante: endereço + ligar -->
+  <div class="float-stack">
+    <a
+      class="address-float"
+      href="https://www.google.com/maps/search/?api=1&query=Rua+Catumbi+1139+Catumbi+Sao+Paulo+SP+03021-000"
+      target="_blank"
+      rel="noopener noreferrer"
+      aria-label="Ver endereço no Google Maps"
+    >
+      <span class="address-float__icon" aria-hidden="true">
+        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+          <path d="M21 10c0 7-9 13-9 13s-9-6-9-13a9 9 0 0 1 18 0z"/>
+          <circle cx="12" cy="10" r="3"/>
+        </svg>
+      </span>
+      <span class="address-float__text">
+        <strong>Endereço</strong>
+        <span>Rua Catumbi, 1139 — Catumbi</span>
+        <span>São Paulo/SP · 03021-000</span>
+      </span>
+    </a>
+
+    <a
+      class="whatsapp-float"
+      href="tel:+551145571309"
+      aria-label="Ligar: (11) 4557-1309"
+    >
+      <span class="whatsapp-float__pulse" aria-hidden="true"></span>
+      <svg class="whatsapp-float__icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" aria-hidden="true">
+        <path d="M22 16.92v3a2 2 0 0 1-2.18 2 19.79 19.79 0 0 1-8.63-3.07 19.5 19.5 0 0 1-6-6 19.79 19.79 0 0 1-3.07-8.67A2 2 0 0 1 4.11 2h3a2 2 0 0 1 2 1.72c.127.96.361 1.903.7 2.81a2 2 0 0 1-.45 2.11L8.09 9.91a16 16 0 0 0 6 6l1.27-1.27a2 2 0 0 1 2.11-.45c.907.339 1.85.573 2.81.7A2 2 0 0 1 22 16.92z"/>
+      </svg>
+      <span class="whatsapp-float__label">Ligar</span>
+    </a>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>
